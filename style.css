@@ -129,6 +129,7 @@ section{
 .home-img img{
     width: 30vw;
     animation: floatImage 4s ease-in-out infinite;
+    border-radius: 50%;
 }
 
 @keyframes floatImage{
@@ -184,6 +185,7 @@ h2 span{
 
 .about-img img{
     width: 28vw;
+    border-radius: 50%;
 }
 
 .about-content h2{
@@ -575,10 +577,12 @@ header.sticky{
 @media(max-width:365px){
     .home-img img{
         width: 90vw;
+        border-radius: 50%;
     }
 
     .about-img img{
         width: 90vw;
+        border-radius: 50%;
     }
 
     .footer{
